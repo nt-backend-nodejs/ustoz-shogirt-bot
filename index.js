@@ -1,12 +1,6 @@
 import { bot } from "./src/bot/index.js";
+import { connectMongodb } from "./src/config/index.js";
 
-(async () => {
-  await bot.start();
-})();
-
-
-// setTimeout(async ()=>{
-//   const botInfo = await bot.api.getMe();
-//   console.log(botInfo)
-// }, 1000)
-
+connectMongodb();
+console.log("bot start");
+bot.start();

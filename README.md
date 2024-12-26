@@ -1,1 +1,2 @@
-# ustoz-shogirt-bot
+# @developer_jobs_uz_bot - bot_nomi
+# t.me/DeveloperJobsUz - kanal nomi
